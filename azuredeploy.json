@@ -148,7 +148,7 @@
             "metadata": {
                 "description": "The location of resources"
             },
-            "defaultValue": "https://raw.githubusercontent.com/Mannai-Microsoft-Solutions/Sentinel-Onbording/main/"
+            "defaultValue": "https://raw.githubusercontent.com/KloudynetTechnologies/Microsoft-Sentinel-Onboarding/main/"
         }
     },
     "variables": {
@@ -324,3 +324,4 @@
         }
     }
 }
+
