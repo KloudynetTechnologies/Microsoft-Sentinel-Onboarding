@@ -114,7 +114,7 @@
 								"label": "Enter the name of a new Workspace to be created.",
 								"placeholder": "e.g. ws-mdr-CUSTOMERNAME",
 								"defaultValue": "",
-								"toolTip": "The Workspace name should include 4-63 letters, digits or '-'. The '-' shouldn't be the first or the last symbol. If this value is provided, existing workspaces will be omitted and new Log Analytics and Sentinel workspaces will be created. Sentinel workspace names must be unique to prevent operational conflicts. Do not proceed if unsure and contact a Mannai engineer.",
+								"toolTip": "The Workspace name should include 4-63 letters, digits or '-'. The '-' shouldn't be the first or the last symbol. If this value is provided, existing workspaces will be omitted and new Log Analytics and Sentinel workspaces will be created. Sentinel workspace names must be unique to prevent operational conflicts. Do not proceed if unsure and contact a Kloudynet engineer.",
 								"constraints": {
 									"required": true,
 									"regex": "^[A-Za-z0-9][A-Za-z0-9-]+[A-Za-z0-9]$",
