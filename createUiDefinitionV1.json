@@ -45,7 +45,7 @@
 				"type": "Microsoft.Common.InfoBox",
 				"visible": true,
 				"options": {
-					"text": "Resource group and Sentinel workspace names must be unique to prevent operational conflicts. Do not proceed if unsure and contact a Mannai engineer.",
+					"text": "Resource group and Sentinel workspace names must be unique to prevent operational conflicts. Do not proceed if unsure and contact a Kloudynet engineer.",
 					"style": "Warning"
 				}
 			}            
