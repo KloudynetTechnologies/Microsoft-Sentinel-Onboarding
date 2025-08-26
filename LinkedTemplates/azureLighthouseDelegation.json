@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "mspRegistrationName": {
+            "type": "string"
+        },
+        "mspAssignmentName": {
+            "type": "string"
+        }
+    },
+    "variables": {
+    },
+    "resources": [
+        {
+            "type": "Microsoft.ManagedServices/registrationAssignments",
+            "apiVersion": "2019-06-01",
+            "name": "[parameters('mspAssignmentName')]",
+            "properties": {
+                "registrationDefinitionId": "[resourceId('Microsoft.ManagedServices/registrationDefinitions/', parameters('mspRegistrationName'))]"
+            }
+        }
+    ]
+}
